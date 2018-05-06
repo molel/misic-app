@@ -1,5 +1,8 @@
 import React from 'react'
-const InfoView=()=>{
-    return <div>Info</div>
+
+const InfoView = () => {
+    return <div>info
+        </div>
 }
-export default InfoView;
+
+export default InfoView
