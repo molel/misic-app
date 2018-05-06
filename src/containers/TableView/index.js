@@ -1,5 +1,8 @@
 import React from 'react'
-const TableView=()=>{
-    return <div>Table</div>
+
+const TableView = () => {
+    return <div>table
+        </div>
 }
-export default TableView;
+
+export default TableView
