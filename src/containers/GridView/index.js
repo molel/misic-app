@@ -1,5 +1,14 @@
 import React from 'react'
-const GridView=()=>{
-    return <div>Grid</div>
-}
-export default GridView;
+import { inject } from 'mobx-react'
+import ArtistTable from '../../components/ArtistTable';
+
+
+const GridView = inject('store')(class GridView extends React.Component {
+    render() {
+        return <div>
+            <ArtistTable />
+        </div>
+    }
+})
+
+export default GridView
