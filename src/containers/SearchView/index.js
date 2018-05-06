@@ -1,5 +1,8 @@
 import React from 'react'
-const SearchView=()=>{
-    return <div>Search</div>
+
+const SearchView = () => {
+    return <div>search
+        </div>
 }
-export default SearchView;
+
+export default SearchView
