@@ -1,5 +1,12 @@
 import React from 'react'
-const Menu=()=>{
-    return <div>Menu</div>
+import './style.css'
+
+
+const Menu = () => {
+    return <div className='menu'>
+        <div className='menu__button'>View</div>
+        <div className='menu__button'>Search</div>
+    </div>
 }
-export default Menu;
+
+export default Menu
